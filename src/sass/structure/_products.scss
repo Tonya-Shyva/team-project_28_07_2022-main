@@ -280,6 +280,7 @@
 
   & .icon-arrow-close,
   &.is-open .icon-arrow-open {
+    display: none;
     opacity: 0;
     visibility: hidden;
   }
