@@ -2,14 +2,14 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://igr-0k.github.io/aci-group-project",
+  "homepage": "https://tonya-shyva.github.io/team-project_28_07_2022-main/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /aci-group-project/"
+    "build": "parcel build src/*.html --public-url /team-project_28_07_2022-main/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+    "url": "git+https://github.com/Tonya-Shyva/team-project_28_07_2022-main"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
