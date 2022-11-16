@@ -1,0 +1,10 @@
+import '../js/slider.js';
+import '../js/click-btn-products.js';
+import '../js/click-btn-hero.js';
+import '../js/about-modal.js';
+import '../js/modal.js';
+import '../js/modal-order.js';
+import '../js/mobile-menu.js';
+import '../js/active-menu-btn.js';
+import '../js/mob-menu-btns.js';
+import '../js/map_click_btn.js';
