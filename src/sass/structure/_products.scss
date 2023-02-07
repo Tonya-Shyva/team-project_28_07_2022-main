@@ -297,13 +297,12 @@
   width: 30%;
   height: 30%;
 }
-
 .products__article {
   display: none;
   opacity: 0;
-  visibility: hidden;
+  visibility: visible;
 
-  @include transitions(visibility, opacity);
+  @include transitions(visibility, opacity, display);
 }
 
 .products__btn.is-open ~ .products__article {
@@ -311,15 +310,18 @@
   opacity: 1;
   visibility: visible;
   margin-top: 25px;
-  animation: rotate null linear 250ms 1;
+
+  animation: scale null linear 250ms 1;
 }
 
-@keyframes rotate {
+@keyframes scale {
   0% {
     scale: 0;
+    rotate: 0deg;
   }
   100% {
     scale: 1;
+    rotate: 360deg;
   }
 }
 
